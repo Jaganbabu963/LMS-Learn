@@ -13,12 +13,14 @@ import studentCourseProgressRoutes from "./routes/studentRoutes/studentCoursePro
 
 const app = express();
 app.use(
-  cors({
-    origin: process.env.CLIENT_URI,
-    methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
+  cors()
 );
+
+// {
+//     origin: process.env.CLIENT_URI,
+//     methods: ["GET", "POST", "DELETE", "PUT", "PATCH"],
+//     allowedHeaders: ["Content-Type", "Authorization"],
+//   }
 app.use(express.json());
 
 const PORT = process.env.PORT;
