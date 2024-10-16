@@ -11,9 +11,10 @@ import AddnewCoursePage from "./pages/AddnewCourse";
 import StudentCoursePage from "./pages/studentpages/StudentCoursePage";
 import StudentCourseDetailsPage from "./pages/studentpages/StudentCourseDetailsPage";
 import PaymentReturnPage from "./pages/studentpages/PaymentReturnPage";
-import StudentCourses from "./pages/studentpages/myCourses";
+// import StudentCourses from "./pages/studentpages/myCourses";
 import CourseProgresPage from "./pages/studentpages/CourseProgresPage";
 import Auth from "./pages/Auth";
+import StudentCourses from "./pages/studentpages/MyCourses";
 
 const App = () => {
   const { auth } = useContext(AuthContext);
