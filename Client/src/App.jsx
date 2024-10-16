@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Auth from "./pages/auth";
+// import Auth from "./pages/auth";
 import RouteGuard from "./components/RouteGuard";
 import { useContext } from "react";
 import { AuthContext } from "./context/Auth-context";
@@ -13,6 +13,7 @@ import StudentCourseDetailsPage from "./pages/studentpages/StudentCourseDetailsP
 import PaymentReturnPage from "./pages/studentpages/PaymentReturnPage";
 import StudentCourses from "./pages/studentpages/myCourses";
 import CourseProgresPage from "./pages/studentpages/CourseProgresPage";
+import Auth from "./pages/Auth";
 
 const App = () => {
   const { auth } = useContext(AuthContext);
